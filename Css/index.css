@@ -26,6 +26,13 @@ h3{
 }
 /* Mobile */
 @media only screen and (max-width:600px){
+    *{
+        box-sizing: border-box;
+        /* overflow-x: hidden; */
+    }
+    #movetop{
+        right: 300px!important;
+    }
     .menu{
         width: 30%;
         margin-left: 10px;
@@ -53,30 +60,34 @@ h3{
     }
     .section{
         width: 100vh!important;
-        height: 100vh!important;
     }
     .section .slider-banner{
         max-width: 400px;
+        height: 400px!important;
     }
     .slider-banner-2{
         max-width: 400px;
+        height: 400px!important;
     }
     .slider-banner-3{
         max-width: 400px;
+        height: 400px!important;
     }
     .slider-banner-4{
         max-width: 400px;
+        height: 400px!important;
     }
     .nav-btn{
         display: none;
     }
     .about{
-        width: 420px;
+        width: 378px;
     }
     .container-info-banner{
         width: 100% !important;
         left: 56% !important;
         margin: 0!important;
+        top: 58% !important;
     }
     .container-info-banner h5{
         width: 75%;
@@ -119,7 +130,8 @@ h3{
         height: 50vh;
     }
     .container-left{
-        width: 100% !important;
+        width: 375px !important;
+        left: 62% !important;
     }
     .container-form{
         display: block !important;
@@ -142,7 +154,7 @@ h3{
         width: 100% !important;
     }
     .hny-title{
-        font-size: 30px !important;
+        font-size: 28px !important;
     }
     .my{
         width: 90% !important;
@@ -189,6 +201,12 @@ h3{
 }
 /* Tablet */
 @media only screen and (min-width: 600px)and (max-width: 1024px){
+    *{
+        box-sizing: border-box;
+    }
+    #movetop{
+        right: 80px!important;
+    }
     /* Header */
     .menu{
         width: 30%;
@@ -220,6 +238,7 @@ h3{
         font-size: 25px !important;
         line-height: 26px !important;
     }
+
     .info-about .hny-title{
         font-size: 35px !important;
         line-height: 40px;
@@ -238,12 +257,12 @@ h3{
         width: 40% !important;
     }
     .container-process .row-process{
-        width: 100% !important;
+        width: 500px!important;
         margin: 15px 0 !important;
     }
-    .about .container{
-        margin: 0 50px!important;
-    }
+    /* .about{
+        /* max-width: 708px; */
+    /* } */ */
     .process{
         margin: 0 40px!important;
     }
@@ -253,8 +272,19 @@ h3{
     .nav-btn{
         display: none;
     }
+    .service{
+        max-width: 700px;
+        margin: 15px;
+        padding: 15px 25px;
+    }
     .service .container-service{
-        margin: 45px!important;
+        margin: 0!important;
+    }
+    /* .choose{ */
+        /* width: 708px; }*/
+    .choose .container-choose{
+        width: 100%!important;
+        margin: 30px 0 !important;
     }
     .choose .container-choose .row-choose{
         width: 40% !important;
@@ -270,6 +300,17 @@ h3{
     .container-left{
         top: 50% !important;
         left: 53% !important;
+    }
+    .banner-section{
+        /* max-width:708px; */
+        height: 500px!important;
+    }
+    .clients .text-clients{
+        margin: 20px 0 !important;
+    }
+    .info-form{
+        font-size: 15px;
+        color: #fff;
     }
     .section .slider-banner{
         width: 768px;
@@ -290,6 +331,9 @@ h3{
     .clients .avatar>img{
         width: 15% !important;
     } 
+    .navigation{
+        left: 50%!important;
+    }
     .footer .container-footer{
         width: 100% !important;
         display: flex!important;

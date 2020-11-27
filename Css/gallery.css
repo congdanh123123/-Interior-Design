@@ -41,6 +41,10 @@
     .btn{
         display: none!important;
     }
+    /* Services */
+    .services .content-services{
+        left: 30% !important;
+    }
     /* View */
     .container-view .row-view .items-view{
         width: 100%!important;

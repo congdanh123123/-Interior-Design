@@ -41,12 +41,16 @@ a{
 }
 /* Mobile*/
 @media only screen and (max-width:600px){
+    *{
+        box-sizing:border-box;
+        /* overflow-x: hidden; */
+    }
     #movetop{
         right: 49px!important;
     }
     /* Header */
     .menu{
-        width: 30%;
+        max-width: 400px;
         display: block!important;
     }
     .nav{
@@ -76,11 +80,11 @@ a{
         margin: 15px 0;
     }
     .about{
-        width:468px;
+        max-width: 400px;
     }
     .container-ab{
-        width: 100% !important;
-        margin: 30px !important;
+        width: 340px!important;
+       margin: 10px 15px!important;
     }
     .about .content-about .title{
         font-size: 25px !important;
@@ -91,7 +95,7 @@ a{
     }
     /* Choose */
     .choose{
-        width:425px;
+        max-width: 400px;
     }
     .choose .container-choose{
         width: 85% !important;
@@ -108,7 +112,8 @@ a{
     }
     /* Customer */
     .customer{
-        width: 424px;
+        max-width:400px;
+        min-height: 100%!important;
     }
     .container-customer {
         flex-wrap: wrap;
@@ -219,7 +224,7 @@ a{
     left: 0;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     transition: 0.6s;
 }
